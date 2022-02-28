@@ -1,6 +1,6 @@
 ﻿int num1;
 int num2;
-int result;
+int result = 0;
 char symbol;
 
 Console.Write("Tal 1: ");
