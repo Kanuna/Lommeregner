@@ -12,7 +12,6 @@ num2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Symbol +, -, /, *: ");
 symbol = Convert.ToChar(Console.ReadLine());
 
-Console.WriteLine("result: " + result);
 
 
 int Multiply(int num1, int num2) => result = num1 * num2;
@@ -39,3 +38,4 @@ switch (symbol.ToString())
         Divide(num1, num2);
         break;
 }
+Console.WriteLine("result: " + result);
