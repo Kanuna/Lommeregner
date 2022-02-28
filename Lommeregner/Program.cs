@@ -45,3 +45,4 @@ if(Console.ReadKey().Key == ConsoleKey.R)
     Console.Clear();
     goto restart;
 }
+Console.WriteLine();
