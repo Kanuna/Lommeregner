@@ -39,9 +39,9 @@ switch (symbol.ToString())
 }
 
 Console.WriteLine("result: " + result);
-sring test = "";
+Console.WriteLine("...");
 Console.WriteLine("To restart press R");
-if(Console.ReadKey().Key == ConsoleKey.R)
+if (Console.ReadKey().Key == ConsoleKey.R)
 {
     Console.Clear();
     goto restart;
