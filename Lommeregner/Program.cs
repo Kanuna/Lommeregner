@@ -39,7 +39,7 @@ switch (symbol.ToString())
 }
 
 Console.WriteLine("result: " + result);
-Console.WriteLine("To restart press ENTER");
+Console.WriteLine("To restart press R");
 if(Console.ReadKey().Key == ConsoleKey.R)
 {
     Console.Clear();
