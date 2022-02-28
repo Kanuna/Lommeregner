@@ -38,4 +38,3 @@ switch (symbol.ToString())
 }
 
 Console.WriteLine("result: " + result);
-string test = "";
