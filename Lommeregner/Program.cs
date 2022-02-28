@@ -3,13 +3,14 @@ int num2;
 int result = 0;
 char symbol;
 
+restart:
 Console.Write("Tal 1: ");
 num1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Tal 2: ");
+Console.Write("Tal 2: ");
 num2 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Symbol +, -, /, *, %: ");
+Console.Write("Symbol +, -, /, *, %: ");
 symbol = Convert.ToChar(Console.ReadLine());
 
 int Multiply(int num1, int num2) => result = num1 * num2;
@@ -38,3 +39,9 @@ switch (symbol.ToString())
 }
 
 Console.WriteLine("result: " + result);
+Console.WriteLine("To restart press ENTER");
+if(Console.ReadKey().Key == ConsoleKey.R)
+{
+    Console.Clear();
+    goto restart;
+}
