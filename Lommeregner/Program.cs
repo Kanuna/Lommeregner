@@ -22,3 +22,20 @@ int Divide(int num1, int num2) => result = num1 / num2;
 int Plus(int num1, int num2) => result = num1 + num2;
 
 int Minus(int num1, int num2) => result = num1 - num2;
+
+
+switch (symbol.ToString())
+{
+    case "+":
+        Plus(num1, num2);
+        break;
+    case "-":
+        Minus(num1, num2);
+        break;
+    case "*":
+        Multiply(num1, num2);
+        break;
+    case "/":
+        Divide(num1, num2);
+        break;
+}
