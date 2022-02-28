@@ -1,17 +1,18 @@
 ﻿int num1;
 int num2;
-int result;
+int result = 0;
 char symbol;
 
-Console.Write("Tal 1: ");
+Console.WriteLine("Tal 1: ");
 num1 = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Tal 2: ");
+Console.WriteLine("Tal 2: ");
 num2 = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Symbol +, -, /, *: ");
+Console.WriteLine("Symbol +, -, /, *: ");
 symbol = Convert.ToChar(Console.ReadLine());
 
+Console.WriteLine("result: " + result);
 
 
 int Multiply(int num1, int num2) => result = num1 * num2;
@@ -38,4 +39,3 @@ switch (symbol.ToString())
         Divide(num1, num2);
         break;
 }
-Console.WriteLine("result: " + result);
