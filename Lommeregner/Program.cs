@@ -10,7 +10,7 @@ num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Tal 2: ");
 num2 = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Symbol +, -, /, *, %: ");
+Console.Write("Symbol +, -, /, *: ");
 symbol = Convert.ToChar(Console.ReadLine());
 
 int Multiply(int num1, int num2) => result = num1 * num2;
