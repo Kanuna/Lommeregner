@@ -1,6 +1,8 @@
-Mikkel j
+Mikkel J
 Mathias L
 
+
+Mikkel J {
 Hvad betyder det at dokumentere? Ud fra jeres intuition beskriv: det betyder at man forklar hvad en kode dele gør eller hvad ens 
 progranm gør.
 
@@ -12,3 +14,18 @@ og der efter gå ind i hvordan man bruger det. Det er nemmeste at få forklaret 
 det.
 
 Hvilke værktøjer vil I bruge? word, kommentarer i vs
+}
+
+
+Mathias L{
+Hvad betyder det at dokumentere?: At dokumentere noget er når man enten begrunder noget man har gjort, gør, vil gøre eller beskriver hvad det man har lavet gør.
+
+Hvad er formålet med dokumentation?: For at gøre det nemmere for andre at forstå hvad man har gjort og nogle gange hvorfor. Det hjælper også en selv,
+hvis man ikke har arbejdet med programmet i lang tid, og har glemt nogle af tingene.
+
+Hvordan vil I gribe det an hvis i skulle beskrive et program og begrunde jeres valg?: Jeg ville skrive ned hvad programmet gør, og så dele det ind i "parts"
+så hvis der er noget med en person og en bil, så vil jeg beskrive det individult. Jeg vil også skrive hvorfor jeg har valgt at kalde en class "Person" når det har noget med personer at gøre.
+Jeg vil beskrive alle de steder det ikke giver mening, for at gøre det nemmere for andre.
+
+Hvilke værktøjer vil I bruge? word, kommentarer i Vissual Studio
+}
